@@ -1,0 +1,213 @@
+[apps/update-manager]
+first-run=false
+launch-count=1
+launch-time=int64 1772163926
+
+[com/ubuntu/update-notifier]
+release-check-time=uint32 1772163203
+
+[desktop/ibus/general]
+preload-engines=['hangul']
+version='1.5.29'
+
+[desktop/ibus/general/hotkey]
+triggers=['Hangul', '<Super>space']
+
+[org/freedesktop/ibus/engine/hangul]
+auto-reorder=false
+hangul-keyboard='2'
+hanja-keys='Hangul_Hanja,F9'
+initial-input-mode='latin'
+switch-keys="['Hangul', 'Shift+space'],Alt_R"
+word-commit=false
+
+[org/gnome/calculator]
+accuracy=9
+angle-units='degrees'
+base=10
+button-mode='basic'
+number-format='automatic'
+show-thousands=false
+show-zeroes=false
+source-currency=''
+source-units='degree'
+target-currency=''
+target-units='radian'
+window-maximized=false
+window-size=(367, 502)
+word-size=64
+
+[org/gnome/control-center]
+last-panel='sound'
+window-state=(980, 639, false)
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'YaST', 'Pardus']
+
+[org/gnome/desktop/app-folders/folders/Pardus]
+categories=['X-Pardus-Apps']
+name='X-Pardus-Apps.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Loupe.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/input-sources]
+mru-sources=[('ibus', 'hangul'), ('xkb', 'kr+kr104')]
+sources=[('ibus', 'hangul')]
+xkb-options=['ctrl:hyper_capscontrol']
+
+[org/gnome/desktop/interface]
+color-scheme='prefer-dark'
+gtk-theme='Yaru-dark'
+icon-theme='Yaru'
+text-scaling-factor=1.25
+
+[org/gnome/desktop/notifications]
+application-children=['gnome-language-selector', 'google-chrome', 'wine-programs-', 'apport-gtk', 'org-gnome-nautilus', 'gnome-power-panel', 'org-telegram-desktop-b1689cb7a40c656ab9bb397edefde9c1']
+
+[org/gnome/desktop/notifications/application/apport-gtk]
+application-id='apport-gtk.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-language-selector]
+application-id='gnome-language-selector.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[org/gnome/desktop/notifications/application/google-chrome]
+application-id='google-chrome.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/notifications/application/org-telegram-desktop-b1689cb7a40c656ab9bb397edefde9c1]
+application-id='org.telegram.desktop._b1689cb7a40c656ab9bb397edefde9c1.desktop'
+
+[org/gnome/desktop/notifications/application/wine-programs-]
+application-id='wine-Programs-카카오톡.desktop'
+
+[org/gnome/desktop/peripherals/touchpad]
+two-finger-scrolling-enabled=true
+
+[org/gnome/desktop/search-providers]
+sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
+
+[org/gnome/desktop/wm/keybindings]
+maximize=['<Ctrl><Super>Up']
+switch-to-workspace-down=['<Control><Alt>Down']
+switch-to-workspace-up=['<Control><Alt>Up']
+unmaximize=['<Ctrl><Super>Down']
+
+[org/gnome/evolution-data-server]
+migrated=true
+
+[org/gnome/gnome-system-monitor]
+current-tab='processes'
+show-dependencies=false
+show-whose-processes='user'
+
+[org/gnome/gnome-system-monitor/disktreenew]
+col-6-visible=true
+col-6-width=0
+columns-order=[5]
+sort-col=1
+sort-order=0
+
+[org/gnome/gnome-system-monitor/proctree]
+columns-order=[0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+sort-col=15
+sort-order=0
+
+[org/gnome/mutter]
+edge-tiling=false
+experimental-features=@as []
+overlay-key=''
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='list-view'
+migrated-gtk-settings=true
+search-filter-time-type='last_modified'
+
+[org/gnome/nautilus/window-state]
+initial-size=(890, 550)
+
+[org/gnome/portal/filechooser/com.usebottles.bottles]
+last-folder-path='/home/woo'
+
+[org/gnome/portal/filechooser/org.chromium.Chromium]
+last-folder-path='/home/woo/dev/brand-monitor/pen'
+
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+logout=@as []
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Ctrl><Shift>s'
+command='env QT_QPA_PLATFORM=xcb flameshot gui'
+name='Screenshot Area'
+
+[org/gnome/settings-daemon/plugins/power]
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+
+[org/gnome/shell]
+app-picker-layout=[{'software-properties-drivers.desktop': <{'position': <0>}>, 'snap-store_snap-store.desktop': <{'position': <1>}>, 'org.gnome.clocks.desktop': <{'position': <2>}>, 'com.usebottles.bottles.desktop': <{'position': <3>}>, 'fcitx.desktop': <{'position': <4>}>, 'fcitx-configtool.desktop': <{'position': <5>}>, 'firefox_firefox.desktop': <{'position': <6>}>, 'org.gnome.Calculator.desktop': <{'position': <7>}>, 'firmware-updater_firmware-updater.desktop': <{'position': <8>}>, 'org.gnome.eog.desktop': <{'position': <9>}>, 'org.gnome.Settings.desktop': <{'position': <10>}>, 'org.gnome.SystemMonitor.desktop': <{'position': <11>}>, 'wine-Programs-KakaoTalk.desktop': <{'position': <12>}>, 'org.gnome.Terminal.desktop': <{'position': <13>}>, 'gnome-language-selector.desktop': <{'position': <14>}>, 'Utilities': <{'position': <15>}>, 'nvidia-settings.desktop': <{'position': <16>}>, 'yelp.desktop': <{'position': <17>}>, 'pencil.desktop': <{'position': <18>}>, 'org.gnome.PowerStats.desktop': <{'position': <19>}>, 'software-properties-gtk.desktop': <{'position': <20>}>, 'update-manager.desktop': <{'position': <21>}>, 'chrome-pjibgclleladliembfgfagdaldikeohf-Default.desktop': <{'position': <22>}>, 'gnome-session-properties.desktop': <{'position': <23>}>}, {'org.gnome.TextEditor.desktop': <{'position': <0>}>, 'wine-Programs-Windows Media Player.desktop': <{'position': <1>}>, 'winetricks.desktop': <{'position': <2>}>, 'wine-Programs-새나루-새나루 Uninstall.desktop': <{'position': <3>}>, 'wine-Programs-카카오톡.desktop': <{'position': <4>}>, 'vim.desktop': <{'position': <5>}>}]
+enabled-extensions=['ding@rastersoft.com', 'ubuntu-dock@ubuntu.com', 'tiling-assistant@ubuntu.com']
+favorite-apps=['org.gnome.Nautilus.desktop', 'google-chrome.desktop']
+last-selected-power-profile='performance'
+welcome-dialog-last-shown-version='46.0'
+
+[org/gnome/shell/extensions/tiling-assistant]
+active-window-hint-color='rgb(211,70,21)'
+last-version-installed=46
+overridden-settings={'org.gnome.mutter.edge-tiling': <@mb nothing>}
+tile-bottom-half=['<Hyper>Down']
+tile-left-half=['<Hyper>Left']
+tile-maximize=['<Hyper>Up']
+tile-right-half=['<Hyper>Right']
+tiling-popup-all-workspace=true
+
+[org/gnome/shell/keybindings]
+toggle-application-view=['Super_L']
+
+[org/gnome/shell/world-clocks]
+locations=@av []
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-color='#000000'
+background-transparency-percent=5
+bold-color='#ffffff'
+bold-color-same-as-fg=true
+cursor-background-color='#ffffff'
+cursor-colors-set=true
+cursor-foreground-color='#1a1b26'
+font='JetBrainsMono Nerd Font 14'
+foreground-color='#ffffff'
+highlight-background-color='#33467c'
+highlight-colors-set=true
+highlight-foreground-color='#c0caf5'
+palette=['#15161e', '#f7768e', '#9ece6a', '#e0af68', '#7aa2f7', '#bb9af7', '#7dcfff', '#a9b1d6', '#414868', '#f7768e', '#9ece6a', '#e0af68', '#7aa2f7', '#bb9af7', '#7dcfff', '#c0caf5']
+use-system-font=false
+use-theme-colors=false
+use-transparent-background=false
+
+[org/gtk/gtk4/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+sidebar-width=140
+sort-column='name'
+sort-directories-first=true
+sort-order='ascending'
+type-format='category'
+view-type='list'
+window-size=(819, 372)
