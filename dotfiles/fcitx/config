@@ -1,0 +1,37 @@
+[Hotkey]
+TriggerKey=CTRL_SPACE
+UseExtraTriggerKeyOnlyWhenUseItToInactivate=True
+SwitchKey=Disabled
+IMSwitchKey=False
+IMSwitchIncludeInactive=False
+IMSwitchHotkey=CTRL_SHIFT
+TimeInterval=250
+VKSwitchKey=CTRL_ALT_B
+RemindSwitchKey=
+FullWidthSwitchKey=
+PuncSwitchKey=CTRL_ALT_F
+PrevPageKey=MINUS UP
+NextPageKey=EQUAL DOWN
+SecondThirdCandWordKey=
+SaveAllKey=CTRL_ALT_S
+SwitchPreedit=CTRL_ALT_P
+
+[Program]
+DelayStart=0
+ShareStateAmongWindow=All
+
+[Output]
+HalfPuncAfterNumber=True
+EnterAction=Nothing
+RemindModeDisablePaging=True
+SendTextWhenSwitchEng=False
+CandidateWordNumber=5
+PhraseTips=True
+DontCommitPreeditWhenUnfocus=False
+
+[Appearance]
+ShowInputWindowAfterTriggering=True
+ShowInputWindowWhenFocusIn=False
+ShowInputWindowOnlyWhenActive=True
+ShowInputSpeed=False
+ShowVersion=False
