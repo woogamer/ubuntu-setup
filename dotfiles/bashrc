@@ -134,4 +134,8 @@ alias guicode="node ~/dev/GUIcode/dist/cli/index.js"
 
 # SSH shortcuts
 alias dev="ssh dev"
-alias server="ssh woohyun@100.77.48.114"
+alias server="et woohyun@100.77.48.114"
+alias dgx="et woohyun@100.78.234.14"
+alias deploy='~/dev/deploy.sh'
+alias codex='CODEX_HOME="$PWD/.codex" codex'
+

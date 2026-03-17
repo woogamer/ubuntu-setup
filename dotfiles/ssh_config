@@ -1,0 +1,7 @@
+Host dev
+    HostName 100.77.48.114
+    User woohyun
+
+Host dev-old
+    HostName 100.94.41.65
+    User woohyun_dev
